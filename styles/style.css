@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+/* flex utility classes */
+.flex-row {
+  display: flex;
+}
+
+.flex-align-center {
+  align-items: center;
+}
+
+.flex-justify-center {
+  justify-content: center;
+}
+
+.flex-justify-between {
+  justify-content: space-between;
+}
+
+.social-media {
+  font-size: 2rem;
+  margin: 0.5rem;
+}
+
+header .container {
+  height: 70px;
+}
+
+header img {
+  height: 50px;
+}
