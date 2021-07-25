@@ -133,3 +133,26 @@ header .container ul li {
 .showcase-container .showcase-text-content p {
   margin: 1rem 0;
 }
+
+/* Articles */
+
+.articles .articles-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  background: #a66bbe;
+}
+
+.articles .articles-container .article-column {
+  display: grid;
+}
+
+.articles .articles-container article:first-child {
+  grid-column: 1 / span 2;
+  background: #009cff;
+}
+
+.articles .articles-container article:last-child {
+  grid-column:  2 / span 4;
+  background: #f99500;
+}
