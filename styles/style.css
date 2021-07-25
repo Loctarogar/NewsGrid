@@ -9,9 +9,14 @@
   --color-yellow: #f99500;
   --color-violet: #a66bbe;
   --color-turquoise: #009cff;
+  --body-background: #f3f3f3;
   --opacity-color: #333;
   /*  */
   --showcase-height: 60vh
+}
+
+body {
+  background: var(--body-background);
 }
 
 ul {
@@ -153,6 +158,6 @@ header .container ul li {
 }
 
 .articles .articles-container article:last-child {
-  grid-column:  2 / span 4;
+  grid-column:  2 / span 3;
   background: #f99500;
 }
