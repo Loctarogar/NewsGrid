@@ -11,6 +11,8 @@
   --color-turquoise: #009cff;
   --body-background: #f3f3f3;
   --opacity-color: #333;
+  --footer-text-color: #a6a6a6;
+  --footer-copyright-background: #444444;
   /*  */
   --showcase-height: 60vh;
   --showcase-bg-color-coral: #c72727;
@@ -194,4 +196,35 @@ header .container ul li {
 
 .articles .articles-container article:nth-child(6) {
   background: var(--showcase-bg-color-coral);
+}
+
+/* Footer */
+.footer-main {
+  padding: 2rem;
+  background: var(--opacity-color);
+  color: var(--footer-text-color);
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+}
+
+.footer h2 {
+  color: var(--body-background);
+}
+
+.footer img {
+  height: 40px;
+}
+
+.footer .footer-grid-column {
+  margin-bottom: 2rem;
+}
+
+.footer-copyright {
+  padding: 1rem;
+  background: var(--footer-copyright-background);
+  text-align: center;
 }
