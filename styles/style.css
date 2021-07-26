@@ -201,6 +201,7 @@ header .container ul li {
 /* Footer */
 .footer-main {
   padding: 2rem;
+  line-height: 1.5rem;
   background: var(--opacity-color);
   color: var(--footer-text-color);
 }
@@ -223,8 +224,35 @@ header .container ul li {
   margin-bottom: 2rem;
 }
 
+.footer li {
+  border-bottom: 1px solid var(--footer-text-color);
+  border-bottom-style: inset;
+  padding: .5rem 0;
+}
+
+.footer .input {
+  width: 100%;
+  border: none;
+  margin: 0.2rem 0; 
+  height: 2rem;
+  text-align: center;
+}
+
+.footer .submit {
+  background: var(--showcase-bg-color-coral);
+  color: white;
+}
+
+.footer .anchor {
+  display: inline-block;
+  padding: 5px 30px;
+  margin: 10px 0;
+}
+
 .footer-copyright {
+  text-decoration: none;
   padding: 1rem;
   background: var(--footer-copyright-background);
   text-align: center;
+  font-size: 0.6rem;
 }
